@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JHSC Election – Live Results</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+  <header class="bg-blue-800 text-white py-6 shadow">
+    <div class="max-w-4xl mx-auto px-5 text-center">
+      <h1 class="text-2xl md:text-3xl font-bold">Joint Health & Safety Committee Election</h1>
+      <p class="mt-2">Live Results (manual refresh)</p>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-5 py-10">
+    <div class="bg-white rounded-xl shadow-lg p-8">
+      <h2 class="text-2xl font-semibold mb-8 text-center">Current Vote Count</h2>
+
+      <div class="space-y-6 text-lg">
+        <div class="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+          <span>Alex Rivera</span>
+          <span class="font-bold text-xl">??</span>
+        </div>
+        <div class="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+          <span>Jordan Lee</span>
+          <span class="font-bold text-xl">??</span>
+        </div>
+        <div class="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+          <span>Taylor Kim</span>
+          <span class="font-bold text-xl">??</span>
+        </div>
+        <div class="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+          <span>Casey Morgan</span>
+          <span class="font-bold text-xl">??</span>
+        </div>
+        <div class="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+          <span>Riley Quinn</span>
+          <span class="font-bold text-xl">??</span>
+        </div>
+      </div>
+
+      <div class="mt-10 text-center text-gray-600">
+        <p class="mb-4">For real-time results:</p>
+        <ol class="list-decimal list-inside space-y-2 text-left max-w-md mx-auto">
+          <li>Open your Google Sheet linked to the form</li>
+          <li>Make sure it's published to web (File → Share → Publish to web → Entire Document → Embed or Link)</li>
+          <li>Update the numbers above manually or use Google Sheets chart</li>
+        </ol>
+        <p class="mt-6 text-sm">Refresh this page to show updated manual counts.</p>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
